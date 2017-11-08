@@ -70,7 +70,7 @@ loss_func(sol)
 ```
 
 is a function which reduces the problem's solution. While this is very
-flexible, a two convenience routines is included for fitting to data:
+flexible, two convenience routines are included for fitting to data:
 
 ```julia
 L2DistLoss(t,data;weight=nothing)
